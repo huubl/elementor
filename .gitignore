@@ -14,7 +14,7 @@ assets/js/
 assets/lib/swiper/css/swiper*.css
 *.log
 *.map
-templates
+/templates/
 
 # build tools lock
 yarn.lock
@@ -31,5 +31,5 @@ coverage/
 
 # playwright
 test-results/
-tests/playwright/config/storageState.json
+**/storageState.json
 tests/playwright/config/local.config.js
